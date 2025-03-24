@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ![Project Logo](indominius%20.webp) OSINT Web Application
 
-## Getting Started
+## 🌐 Overview
+This is an open-source **OSINT (Open Source Intelligence) Web Application** built with **Next.js, TypeScript, Tailwind CSS, ShadCN, and Atercenity UI**. It provides essential intelligence-gathering tools such as WHOIS Lookup, DNS Lookup, Subdomain Finder, and Reverse IP Lookup.
 
-First, run the development server:
+## 🚀 Features
+- 🔍 WHOIS Lookup
+- 🌐 DNS Lookup
+- 🕵️‍♂️ Subdomain Finder
+- 🔄 Reverse IP Lookup
+- ⚡ Modern UI with **ShadCN**
+- 🔐 Secure API Integrations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📸 Screenshots
+![Screenshot 1](1.png)
+![Screenshot 2](2.png)
+![Screenshot 3](3.png)
+
+## 📖 Documentation
+### 📌 Installation
+```sh
+git clone https://github.com/your-username/osint-web-app.git
+cd osint-web-app
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔧 Configuration
+Create a `.env` file and set the required API keys:
+```sh
+NINJA_API_KEY=your_api_key_here
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🏃 Running the Application
+```sh
+npm run dev
+```
+Then, open `http://localhost:3000` in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Usage Policy
+This tool is intended for **educational and legal research purposes only**. **Misuse of this application for illegal activities is strictly prohibited.** The developers are not responsible for any unauthorized use.
 
-## Learn More
+## 🤝 Contributing
+We welcome contributions! Fork the repo and create a PR.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛡 License
+This project is licensed under the **MIT License**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+🌟 **Star this repository** if you find it useful! 🚀
